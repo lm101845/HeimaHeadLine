@@ -1,2 +1,2 @@
-# LearnOnline
-使用SpringBoot开发的学成在线项目(黑马)。
+# HeimaHeadLine
+使用SpringCloud+SpringBoot开发的Java微服务黑马头条项目(黑马)。
