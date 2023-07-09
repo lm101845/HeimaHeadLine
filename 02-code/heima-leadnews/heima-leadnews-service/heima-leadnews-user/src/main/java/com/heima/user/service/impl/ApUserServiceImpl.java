@@ -41,7 +41,7 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
             //1.2 比对密码
             String salt = dbUser.getSalt();
             String password = dto.getPassword();
-            String pswd = DigestUtils.md5DigestAsHex((password + salt).getBytes());
+            String pswd = DigestUtils.md5DigestAsHex((password + salt).getBytes());  //拿到加密后的密码
             if(!pswd.equals(dbUser.getPassword())){
                 return ResponseResult.errorResult(AppHttpCodeEnum.LOGIN_PASSWORD_ERROR);
             }
@@ -50,8 +50,8 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
             String token = AppJwtUtil.getToken(dbUser.getId().longValue());
             Map<String,Object> map = new HashMap<>();
             map.put("token",token);
-            dbUser.setSalt("");
-            dbUser.setPassword("");
+            dbUser.setSalt("");      //置为空，不返回给前端
+            dbUser.setPassword("");  //置为空，不返回给前端
             map.put("user",dbUser);
 
             return ResponseResult.okResult(map);
@@ -61,7 +61,5 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
             map.put("token",AppJwtUtil.getToken(0L));
             return ResponseResult.okResult(map);
         }
-
-
     }
 }
