@@ -4,11 +4,28 @@
 https://www.bilibili.com/video/BV1Qs4y1v7x4?p=1
 
 
-课程资料：https://pan.baidu.com/s/1u7PNExeoEsYGh5pAnSyocg&pwd=9987
+课程资料(太大了，就没放github了)：
+https://pan.baidu.com/s/1u7PNExeoEsYGh5pAnSyocg&pwd=9987
+
+虚拟机VMWare16下载地址:
+https://www.123pan.com/s/HQeA-aX1Sh
+
+静态IP:192.168.200.130
+
+用户名：root
+密码：itcast
 
 13511223456  admin
+
+http://192.168.200.130:8848/nacos 
 
 需要本地启动一下redis服务和nginx服务
 
 第1-10集看完——23-07-02
 第11-20集看完——23-07-10
+第1-10集快速复习一遍——23-10-09
+(现在自己的基础知识点基本覆盖完毕了，可以重新学这个项目了)
+(这次我用老师给的虚拟机镜像部署了，不用云服务器了，我怕后面云服务器内存不足。)
+
+第11-20集快速复习一遍——23-10-11
+(我日了狗，我今天才发现，我7月份复制的不是初始工程项目，里面的代码已经写好了，我重新复制一份空项目吧。。。。。。)

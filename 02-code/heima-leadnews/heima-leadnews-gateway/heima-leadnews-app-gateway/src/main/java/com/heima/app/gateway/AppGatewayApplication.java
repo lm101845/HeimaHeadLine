@@ -4,11 +4,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+/**
+ * @Author liming
+ * @Date 2023/10/12 0:17
+ * @Description
+ **/
 
 @SpringBootApplication
 @EnableDiscoveryClient
+//加入注册中心
 public class AppGatewayApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(AppGatewayApplication.class,args);
     }

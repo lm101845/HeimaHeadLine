@@ -81,8 +81,8 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    <dependencyManagement>
 
+    <dependencyManagement>
         <dependencies>
             <!--内部依赖工程-->
             <dependency>
@@ -192,7 +192,8 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
-            </dependency><dependency>
+            </dependency>
+            <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-cbor</artifactId>
                 <version>${fastjson.dataformat.version}</version>

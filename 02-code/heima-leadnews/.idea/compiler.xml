@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="heima-leadnews-test" />
         <module name="heima-leadnews-utils" />
-        <module name="heima-leadnews-app-gateway" />
-        <module name="heima-leadnews-user" />
         <module name="heima-leadnews-feign-api" />
+        <module name="heima-leadnews-user" />
+        <module name="heima-leadnews-app-gateway" />
         <module name="heima-leadnews-common" />
+        <module name="heima-leadnews-service" />
         <module name="heima-leadnews-model" />
       </profile>
     </annotationProcessing>
@@ -34,7 +35,9 @@
       <module name="heima-leadnews-app-gateway" options="-parameters" />
       <module name="heima-leadnews-common" options="-parameters" />
       <module name="heima-leadnews-feign-api" options="-parameters" />
+      <module name="heima-leadnews-gateway" options="" />
       <module name="heima-leadnews-model" options="-parameters" />
+      <module name="heima-leadnews-service" options="-parameters" />
       <module name="heima-leadnews-test" options="-parameters" />
       <module name="heima-leadnews-user" options="-parameters" />
       <module name="heima-leadnews-utils" options="-parameters" />

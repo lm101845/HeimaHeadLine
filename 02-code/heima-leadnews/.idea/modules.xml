@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/heima-leadnews.iml" filepath="$PROJECT_DIR$/heima-leadnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/heima-leadnews.iml" filepath="$PROJECT_DIR$/.idea/heima-leadnews.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/heima-leadnews-app-gateway.iml" filepath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/heima-leadnews-app-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" filepath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-feign-api/heima-leadnews-feign-api.iml" filepath="$PROJECT_DIR$/heima-leadnews-feign-api/heima-leadnews-feign-api.iml" />
