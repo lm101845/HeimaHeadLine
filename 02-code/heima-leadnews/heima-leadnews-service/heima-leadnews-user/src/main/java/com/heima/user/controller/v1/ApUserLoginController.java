@@ -23,8 +23,4 @@ public class ApUserLoginController {
         return apUserService.login(dto);
     }
 
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello";
-    }
 }
